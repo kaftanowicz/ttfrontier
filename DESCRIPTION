@@ -1,15 +1,17 @@
 Package: ttfrontier
-Title: What the Package Does (One Line, Title Case)
+Title: Two-Tier Stochastic Frontier Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Michał",
+           family = "Kaftanowicz",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "michal@kaftanowicz.com",
+           comment = c(ORCID = "0000-0003-0776-7258"))
+Description: Maximum Likelihood Estimation of Two-Tier Stochastic Frontier models.
+    At this moment, one specification is available - the composed error specification with three components:
+    symmetric (normal), positive (exponential) and negative (exponential). 
+    (Kumbhakar, S. C., & Parmeter, C. F. (2009). The effects of match uncertainty and bargaining on labor market outcomes: evidence from firm and worker specific estimates. Journal of Productivity Analysis, 31(1), 1-14, <doi:10.1007/s11123-008-0117-3>)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
